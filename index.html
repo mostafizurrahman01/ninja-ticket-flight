@@ -20,7 +20,7 @@
     <!--Header and Menu Section-->
     <header class="container">
         <nav>
-            <!-- add style on (nav ul li a) -->
+            <!-- add style on (nav ul li a) removing decoration-line -->
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -31,7 +31,7 @@
     </header>
 
     <!--Booking Section-->
-    <main class="main-content container">
+    <main>
         <section id="booking-area" class="main-content container">
             <div class="booking-form">
                 <h3>Booking Flights</h3>
@@ -125,6 +125,7 @@
             </div>
         </section>
 
+        <!-- Extra Features for book-now button and all information will get after click book-now button -->
         <div id="ticketBookDetails" class="book-details container">
             <h2>Flight Ticket</h2>
             <br>
@@ -147,7 +148,7 @@
                         <div id="departure" class="col-md-9 border border-dark"></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3 border border-dark ">Arrive Date: </div>
+                        <div class="col-md-3 border border-dark ">Return Date: </div>
                         <div id="arrive" class="col-md-9 border border-dark"></div>
                     </div>
                     <div class="row">
@@ -166,7 +167,9 @@
             </div>
         </div>
     </main>
+
     <script src="script.js"></script>
+
     <!--Thank You-->
 </body>
 
