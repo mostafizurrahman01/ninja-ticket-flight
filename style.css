@@ -124,9 +124,14 @@ nav ul li a:hover, a.active{
 /* Extra part for book-now button */
 .book-details{
     display: none;
+    margin-top: 100px;
+    padding: 40px;
+}
+.book-details h2{
+    margin-left: 80px;
 }
 .my-container{
-    margin-left: -10px;
+    margin-left: 80px;
 }
 .my-row{
     border: 2px solid black;

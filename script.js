@@ -25,7 +25,7 @@ function calculateTotal() {
     const economyCount = getInputValue('economy');
 
     //this is for showing ticket type after clicking book now
-    document.getElementById('ticket-type').innerText = 'First Class ($150) - ' + firstCount + ' && ' + ' Economy ($100) - ' + economyCount;
+    document.getElementById('ticket-type').innerText = 'First Class($150) - ' + firstCount + ' && ' + ' Economy($100) - ' + economyCount;
 
     const totalPrice = firstCount * 150 + economyCount * 100;
     document.getElementById('sub-total').innerText = '$' + totalPrice;
